@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
-public class associationService {
+public class AssociationService {
     @Autowired
     private associationDao associationDao;
 
@@ -21,4 +21,7 @@ public class associationService {
     public void deleteById(Long aLong) {
         associationDao.deleteById(aLong);
     }
+
+
+
 }
